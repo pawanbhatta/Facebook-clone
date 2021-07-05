@@ -1,0 +1,67 @@
+.postMessage {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  /* padding: 10px; */
+  border-radius: 15px;
+  box-shadow: 1px 2px 3px gray;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.postMessage__top {
+  display: flex;
+  border-bottom: 1px solid #eff2f5;
+  padding: 15px;
+}
+
+.postMessage__top > form {
+  flex: 1;
+  display: flex;
+}
+
+.postMessage__top > form > input {
+  border-radius: 999px;
+  background-color: rgb(235, 233, 233);
+  border: none;
+  outline: none;
+  margin: 0px 10px;
+  padding: 5px 20px;
+}
+
+.postMessage__top > form > button {
+  display: none;
+}
+
+.postMessage__input {
+  flex: 1;
+}
+
+.postMessage__bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.postMessage__action {
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-size: small;
+  margin: 5px;
+  padding: 20px;
+}
+
+.postMessage__action > h3 {
+  font-size: medium;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.postMessage__action:hover {
+  background-color: #eff2f5;
+  border-radius: 20px;
+}
+
+/* .postMessage__bottom > .action .MuiSvgIcon-root {
+  margin-right: 5px;
+ } */
